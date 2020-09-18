@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 5px;
+}
+
+.grid-container > div::before {
+  content: "";
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: auto;
+}

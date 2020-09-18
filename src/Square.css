@@ -1,0 +1,11 @@
+.box-description {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 25%;
+  width: 100%;
+  color: #ffffff;
+  font-size: medium;
+  text-align: center;
+  background-color: #00000090;
+}
